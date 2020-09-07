@@ -11,7 +11,7 @@ export default class IceCreamBuilder extends Component {
     };
 
     componentDidMount() {
-        fetch('https://react-course-27447.firebaseio.com/items.json')
+        fetch('https://react-course-e304a.firebaseio.com/items.json')
             .then((response) => response.json())
             .then((responeData) => {
                 this.setState({
